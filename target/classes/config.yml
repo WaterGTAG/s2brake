@@ -1,0 +1,3 @@
+brake:
+  enabled: true
+  speed: 0.25
