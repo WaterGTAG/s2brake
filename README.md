@@ -4,7 +4,7 @@ One problem I had with making a road system is having minecarts keep going. That
 Please this is is a PLUGIN meant for servers. If you want a mod, I recommend [Minecart Braking](https://modrinth.com/mod/minecart-braking), which does the same thing.
 
 ## Where to Download
-- GitHub Releases: <https://github.com/WaterGTAG/s2brake>
+- GitHub Releases: <https://github.com/WaterGTAG/s2brake/releases>
 - Modrinth: <https://modrinth.com/plugin/s2brake> **(Under review as of Sep 10)**
 
 ## How to Use
