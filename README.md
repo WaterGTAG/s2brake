@@ -7,6 +7,9 @@ Please this is is a PLUGIN meant for servers. If you want a mod, I recommend [Mi
 - GitHub Releases: <https://github.com/WaterGTAG/s2brake/releases>
 - Modrinth: <https://modrinth.com/plugin/s2brake> **(Under review as of Sep 10)**
 
+## Supported Plugin Loaders
+- Paper
+
 ## How to Use
 Drag the JAR file into your **plugins** folder in your server. That's it!
 
