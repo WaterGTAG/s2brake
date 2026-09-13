@@ -20,9 +20,11 @@ public class S2Brake extends JavaPlugin implements Listener {
         // Check if server has brakes on, then if player is in a minecart
         if (getConfig().getBoolean("brake.enabled")) {
         if (player.getVehicle() instanceof Minecart minecart) {
-            if (event.getInput().isBackward()) {
+            while (event.getInput().isBackward()) {
                 minecart.setVelocity(minecart.getVelocity().multiply(speed));
-                player.spawnParticle(Particle.SPLASH, player.getLocation(), 10, 1, 2, 1, 0.01);
+                if (getConfig().getBoolean("particles.enabled")) {
+                    player.spawnParticle(Particle.DUST, player.getLocation(), 1, 0.5, 1, 0.5, 0.01);
+                }
             }
         }
     }
